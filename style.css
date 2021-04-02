@@ -1,0 +1,97 @@
+body{
+	background: navy blue;
+	color: rgb(0,0,128);
+	font-family: Dela Gothic One;
+	font-size: 24px;
+	font-weight: 600;
+	width: 800px;
+	margin: 30px auto;
+}
+h1,h2,h3{
+	font-family: Noto Sans JP;
+	color: green;
+}
+h1{
+	font-size: 32px;
+	font-weight: bold;
+}
+h2{
+	font-size: 24px;
+	font-weight: bold;
+}
+a{
+	text-decoration: none;
+	color:rgb(30,30,30);
+	font-weight: bold;
+}
+a:hover{
+	color:#27496D;
+	cursor: pointer;
+	text-decoration: underline;
+}
+p{
+  text-justify: center;
+  text-justify: justify;
+
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+.container{
+	background-color: black;
+	padding: 30px;
+	border-radius:4px;
+	box-shadow: 0 10px 30px rgba(0,0,0,0.1)
+}
+.img-circle {
+  border-radius: 50%;
+}
+.text-center {
+  text-align: center;
+}
+.card-white {
+  background: orange;
+  padding: 30px;
+  border: 4px solid lightgrey;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline > li {
+  display: inline;
+  padding: 0px 20px;
+}
+.sidebar {
+  position: fixed;
+  width: 200px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+.page-content {
+  margin-left: 200px;
+}
+.sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+  font-family: Arial;
+  font-size: 17px;
+  font-weight: lighter;
+}
+#progress{
+    width: 300px;
+    margin: auto;
